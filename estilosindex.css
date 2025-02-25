@@ -1,0 +1,114 @@
+/*-------------------------------GLOBAL------------------------------*/
+body{
+    background-image: url(./imagenes/castillo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column; 
+}
+
+
+
+
+
+
+
+/*-------------------------------CONTENEDOR INVISIBLE------------------------------*/
+#contenedor-invisible{
+ display: none;
+}    
+
+/*-------------------------------CONTENEDOR GLOBAL------------------------------*/
+#contenedor-index-padre{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /*margin-top: 80px;*/
+}
+
+#contenedor-index-hijo{
+    background-color: rgba(182, 182, 182, 0.8);
+    text-align: center;
+    width: 45%;
+}
+
+/*-------------------------------H1, H2 Y H3------------------------------*/
+h1{
+    font-family: "Waltograph";
+    color: var(--dark-blue);
+    text-shadow: 2px 2px 3px black;
+    font-size: 85px;
+    line-height: 1;
+    margin: 9px 20px 0px 20px;
+}
+
+h2{
+    font-family: "Zain", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 28px;
+    line-height: 2;
+    margin: 0px 20px 0px 20px;
+    color: var(--dark-blue);
+}
+
+h3{
+    font-family: "Zain", serif;
+    font-weight: 300;
+    font-size: 26px;
+    margin: 50px 20px 0px 20px;
+    color: var(--btn-txt-primary-color);
+}
+
+/*-------------------------------BOTÓN------------------------------*/
+#contenedor-boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin: 0px 20px 20px 20px;
+}
+
+#enlace-boton{
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+
+button{
+    font-family: "Zain", serif;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+    color: var(--btn-txt-primary-color);
+    background-color: var(--btn-primary-back-color);
+    width: 136px;
+    height: 90%;
+    border: 2px solid black;
+}
+
+button:hover{
+    font-size: 22px;
+    width: 156px;
+    height: 100%;
+    transition: 0.05s;
+}
+
+button:active{
+    color: var(--light-blue);
+    background-color: var(--dark-blue);
+}
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------FOOTER------------------------------*/

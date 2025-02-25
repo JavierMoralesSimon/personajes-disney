@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+:root{
+    --dark-blue: rgb(65, 77, 184);
+    --light-blue: rgb(92, 180, 255);
+    --btn-primary-back-color: rgb(155, 78, 181);
+    --btn-txt-primary-color: rgb(91, 16, 118);
+    --btn-secondary-back-color: rgb(184, 115, 209);
+    --btn-txt-secondary-color: rgb(128, 28, 165);
+    --cont-background-color: rgba(253, 179, 130, 0.5);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+footer, #contenedor-invisible{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    height: 12vh;
+    position: sticky;
+    width: 100%;
+}
+
+#instagram{
+    font-size: 33px;
+    padding-right: 3px;
+}
+
+.iconos{
+    font-size: 30px;
+    display: inline-flex;
+    color: var(--dark-blue);
+}
+
+#copyright{
+    margin: auto;
+    font-family: "Zain", serif;
+    font-weight: 400;
+    color: var(--dark-blue);
+}

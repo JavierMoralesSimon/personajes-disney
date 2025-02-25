@@ -1,0 +1,220 @@
+/*-------------------------------HEADER-------------------------------*/
+header{
+    position: sticky;
+    background-image: url(./imagenes/header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    top: 0px;
+    z-index: 1000;
+    height: 16vh;
+    /*display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;*/
+}
+
+#volver {
+    text-align: end;
+    padding: 10px 10px 0px 0px;
+}
+
+#volver button{
+    border: 2px solid black;
+    border-radius: 4px;
+    font-family: "Zain", serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--light-blue);
+    background-color: var(--dark-blue);
+}
+
+/*#volver button:hover{
+    width: 120px;
+    transition: 0.05s;
+}*/
+
+#volver button:active{
+    color: var(--btn-txt-primary-color);
+    background-color: var(--btn-primary-back-color);
+}
+
+#titulo{
+    text-shadow: 1px 1px 1px black,
+    -1px -1px 1px black,    
+    1px -1px 1px black,
+    -1px 1px 1px black;
+}
+
+h1{
+    font-family: "Waltograph";
+    color: var(--dark-blue);
+    line-height: 1;
+}
+
+
+
+
+
+
+
+
+/*-------------------------------MAIN-------------------------------*/
+main{
+    height: 72vh;
+    overflow: auto;
+}
+
+#usos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    height: 20%;
+}
+
+/*------MOSTRAR UN PERSONAJE Y UNA PÁGINA------*/
+#unPersonaje-padre, #paginaVisualizar-padre{
+    text-align: center;
+    width: 23%;
+}
+
+#nomPersonaje, #numPagina{
+    width: 320px;
+}
+
+#unPersonaje-padre label, #paginaVisualizar-padre label{
+    font-family: "Zain", serif;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+#unPersonaje-hijo, #paginaVisualizar-hijo{
+    display: flex;
+    margin-top: 10px;
+}
+
+#unPersonaje-hijo input, #paginaVisualizar-hijo input{
+    border: 2px solid black;
+    border-right: 1px solid black;
+    border-radius: 4px 0px 0px 4px;
+    font-family: "Zain", serif;
+    font-weight: 300;
+    font-size: 18px;
+    width: 100%;
+}
+
+#unPersonaje-hijo button, #paginaVisualizar-hijo button{
+    border: 2px solid black;
+    border-left: 1px solid black;
+    border-radius: 0px 4px 4px 0px;
+    font-family: "Zain", serif;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: var(--btn-secondary-back-color);
+    color: var(--btn-txt-secondary-color);
+}
+
+/*------MOSTRAR TODAS LAS PÁGINAS------*/
+#todosPersonajes-padre{
+    text-align: center;
+}
+
+#todosPersonajes-padre label{
+    font-family: "Zain", serif;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+#todosPersonajes-hijo{
+    margin-top: 10px;
+}
+
+#todosPersonajes-hijo button{
+    border: 2px solid black;
+    border-radius: 4px;
+    font-family: "Zain", serif;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: var(--btn-secondary-back-color);
+    color: var(--btn-txt-secondary-color);
+}
+
+/*------PERSONAJES------*/
+#contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: flex-start;
+    align-items: center;
+    align-content: start;*/
+    background-image: url("./imagenes/personajes.jpg");
+    background-position: center -70px;
+    /*Tocar los 3 siguientes en js para cuando cargan cosas*/
+    background-repeat: no-repeat;
+    height: 80%;
+    background-size: cover;
+}
+
+#mini-contenedor-padre{
+    margin: auto;
+    width: 20%;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;   
+    align-items: center;  
+}
+
+#mini-contenedor-hijo{
+    border: 3.5px solid var(--btn-secondary-back-color);
+    border-radius: 6px;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    overflow: auto; 
+    transition: 0.5s;
+    opacity: 0.5;
+    background-color: rgb(216, 162, 216);
+}
+
+#mini-contenedor-hijo:hover{
+    cursor: pointer;
+    width: 83%;
+    height: 83%;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+#mini-contenedor-hijo-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: top center;
+    margin: 10px;
+    border: 3px solid var(--btn-secondary-back-color);
+}
+
+#mini-contenedor-hijo-texto{
+    margin: 10px;
+    font-family: "Zain", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1;
+}
+
+/*------LÍNEAS------*/
+.linea{
+    border: 2px solid var(--btn-secondary-back-color);
+}
+
+
+
+
+
+
+
+/*-------------------------------FOOTER------------------------------*/
+footer{
+    background-color: rgb(156, 208, 231);
+}

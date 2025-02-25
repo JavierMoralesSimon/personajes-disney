@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilospersonajes.css">
+    <link rel="stylesheet" href="./estilosgeneral.css">
+    <script src="./funciones.js"></script>
+    <script src="https://kit.fontawesome.com/9372504801.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./imagenes/favicon.png">
+</head>
+<body>
+    <header>
+        <div id="volver">
+            <a href="./index.html"><button>Volver a inicio</button></a>
+        </div>
+
+        <div id="titulo">
+            <h1>Personajes Disney</h1>
+        </div>
+
+        <!-- <div id="contenedor-invisible-volver">
+            <a href="./index.html"><button>Volver a inicio</button></a>
+        </div> -->
+    </header>
+
+    <main>
+        <div id="usos">
+            <div id="unPersonaje-padre">
+                <label for="nomPersonaje">Visualizar un personaje:</label>
+                <div id="unPersonaje-hijo">
+                    <input type="text" id="personajeElegido" placeholder="Introduce el nombre del personaje">
+                    <button onclick="unPersonaje()">Aceptar</button>
+                </div>
+            </div>
+
+            <div class="linea"></div>
+
+            <div id="paginaVisualizar-padre">
+                <label for="numPagina">Visualizar una página con personajes:</label>
+                <div id="paginaVisualizar-hijo">
+                    <input type="number" id="numPagina" placeholder="Introduce el número de la página (1-149)">
+                    <button onclick="unaPagina(unaPagina,0)">Aceptar</button>
+                </div>
+            </div>
+    
+            <div class="linea"></div>
+
+            <div id="todosPersonajes-padre">
+                <label>Visualizar todos los personajes:</label>
+                <div id="todosPersonajes-hijo">
+                    <button onclick="todasLasPaginas()">Aceptar</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="contenedor"></div>
+    </main>
+
+    <footer>
+        <div>
+            <a href="https://www.instagram.com/disney/" class="iconos" target="blank" title="Enlace a nuestro Instagram" id="instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/Disney/?locale=es_ES" class="iconos" target="blank" title="Enlace a nuestro Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+
+        <div>
+            <p id="copyright">&copy;Disney. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
