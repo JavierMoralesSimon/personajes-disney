@@ -148,10 +148,12 @@ main{
     align-items: center;
     align-content: start;*/
     background-image: url("./imagenes/personajes.jpg");
+    /* background-position: top; */
     background-position: center -70px;
     /*Tocar los 3 siguientes en js para cuando cargan cosas*/
     background-repeat: no-repeat;
     height: 80%;
+    /* height: 100vh; */
     background-size: cover;
 }
 
