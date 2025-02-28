@@ -111,7 +111,7 @@ function unaPagina(palabraClave, i){
                         contenedorImg.id="mini-contenedor-hijo-img";
 
                         //Inserto el nombre y las películas y le pongo un id al contenedor.
-                        contenedorTexto.innerHTML=(nompel.innerHTML="NOMBRE:")+"<br>"+nombre+"<br>"+"<br>"+(nompel.innerHTML="PELÍCULAS:")+"<br>"+peliculas;
+                        contenedorTexto.innerHTML=(nompel.innerHTML="Nombre:")+"<br>"+nombre+"<br>"+"<br>"+(nompel.innerHTML="Películas:")+"<br>"+peliculas;
                         contenedorTexto.id="mini-contenedor-hijo-texto";
 
                         //Digo qué contenedores son hijos de quién.
