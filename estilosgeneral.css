@@ -1,3 +1,4 @@
+/*-------------------------------TIPOGRAFÍAS------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
 
 @font-face {
@@ -5,6 +6,7 @@
     src: url("./+Material+/tipografiaDisney/waltograph42.otf");
 }
 
+/*-------------------------------GLOBAL------------------------------*/
 :root{
     --dark-blue: rgb(65, 77, 184);
     --light-blue: rgb(92, 180, 255);
@@ -21,10 +23,12 @@
     text-decoration: none;
 }
 
+/*-------------------------------BOTONES------------------------------*/
 button:hover{
     cursor: pointer;
 }
 
+/*-------------------------------FOOTER------------------------------*/
 footer, #contenedor-invisible{
     text-align: center;
     display: flex;
@@ -37,15 +41,15 @@ footer, #contenedor-invisible{
     width: 100%;
 }
 
-#instagram{
-    font-size: 33px;
-    padding-right: 3px;
-}
-
 .iconos{
     font-size: 30px;
     display: inline-flex;
     color: var(--dark-blue);
+}
+
+#instagram{
+    font-size: 33px;
+    padding-right: 3px;
 }
 
 #copyright{

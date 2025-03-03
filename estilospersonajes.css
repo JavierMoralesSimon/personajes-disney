@@ -8,10 +8,19 @@ header{
     top: 0px;
     z-index: 1000;
     height: 16vh;
-    /*display: flex;
-    flex-wrap: wrap;
-    justify-content: right;
-    align-items: center;*/
+}
+
+#titulo{
+    text-shadow: 1px 1px 1px black,
+    -1px -1px 1px black,    
+    1px -1px 1px black,
+    -1px 1px 1px black;
+}
+
+h1{
+    font-family: "Waltograph";
+    color: var(--dark-blue);
+    line-height: 1;
 }
 
 #volver {
@@ -29,37 +38,12 @@ header{
     background-color: var(--dark-blue);
 }
 
-/*#volver button:hover{
-    width: 120px;
-    transition: 0.05s;
-}*/
-
 #volver button:active{
     color: var(--btn-txt-primary-color);
     background-color: var(--btn-primary-back-color);
 }
 
-#titulo{
-    text-shadow: 1px 1px 1px black,
-    -1px -1px 1px black,    
-    1px -1px 1px black,
-    -1px 1px 1px black;
-}
-
-h1{
-    font-family: "Waltograph";
-    color: var(--dark-blue);
-    line-height: 1;
-}
-
-
-
-
-
-
-
-
-/*-------------------------------MAIN-------------------------------*/
+/*-------------------------------MAIN (GENERAL)-------------------------------*/
 main{
     height: 72vh;
     overflow: auto;
@@ -73,7 +57,7 @@ main{
     height: 20%;
 }
 
-/*------MOSTRAR UN PERSONAJE Y UNA PÁGINA------*/
+/*-------------------------------MOSTRAR UN PERSONAJE Y UNA PÁGINA-------------------------------*/
 #unPersonaje-padre, #paginaVisualizar-padre{
     text-align: center;
     width: 23%;
@@ -115,7 +99,7 @@ main{
     color: var(--btn-txt-secondary-color);
 }
 
-/*------MOSTRAR TODAS LAS PÁGINAS------*/
+/*-------------------------------MOSTRAR TODAS LAS PÁGINAS-------------------------------*/
 #todosPersonajes-padre{
     text-align: center;
 }
@@ -140,20 +124,14 @@ main{
     color: var(--btn-txt-secondary-color);
 }
 
-/*------PERSONAJES------*/
+/*-------------------------------PERSONAJES-------------------------------*/
 #contenedor{
     display: flex;
     flex-wrap: wrap;
-    /*justify-content: flex-start;
-    align-items: center;
-    align-content: start;*/
     background-image: url("./imagenes/personajes.jpg");
-    /* background-position: top; */
     background-position: center -70px;
-    /*Tocar los 3 siguientes en js para cuando cargan cosas*/
     background-repeat: no-repeat;
     height: 80%;
-    /* height: 100vh; */
     background-size: cover;
 }
 
@@ -205,16 +183,10 @@ main{
     line-height: 1;
 }
 
-/*------LÍNEAS------*/
+/*-------------------------------LÍNEAS DIVISORIAS-------------------------------*/
 .linea{
     border: 2px solid var(--btn-secondary-back-color);
 }
-
-
-
-
-
-
 
 /*-------------------------------FOOTER------------------------------*/
 footer{
