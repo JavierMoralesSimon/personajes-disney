@@ -58,19 +58,3 @@ footer, #contenedor-invisible{
     font-weight: 400;
     color: var(--dark-blue);
 }
-
-
-
-
-
-
-
-
-
-
-/*-------------------------------RESPONSIVE------------------------------*/
-@media (max-width:1024px){
-    /*footer, #contenedor-invisible{
-        
-    }*/
-}
