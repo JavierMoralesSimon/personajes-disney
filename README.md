@@ -4,12 +4,12 @@
 <p>
   <ul>
     <li>
-      <label>Página web en Vercel:</label> 
-      <a target="blank">https://personajes-disney.vercel.app/</a>
+      Página web en Vercel:
+      <a href="https://personajes-disney.vercel.app/" target="_blank"></a>
     </li>
     <li>
-      <label>Vídeo explicativo sobre la página web:</label>
-      <a target="blank">https://drive.google.com/file/d/1TzR76Yj5xSCVaPzhZw15nCJHsbU377X4/view?usp=drive_link</a>
+      Vídeo explicativo sobre la página web:
+      <a href="https://drive.google.com/file/d/1TzR76Yj5xSCVaPzhZw15nCJHsbU377X4/view?usp=drive_link" target="_blank"></a>
     </li>
   </ul>
 </p>
