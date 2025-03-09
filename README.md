@@ -3,7 +3,13 @@
 <h1>Enlaces 🔗</h1>
 <p>
   <ul>
-    <li>Página web en Vercel: <a target="blank">https://personajes-disney.vercel.app/</a></li>
-    <li>Vídeo explicativo sobre la página web: <a target="blank">https://drive.google.com/file/d/1TzR76Yj5xSCVaPzhZw15nCJHsbU377X4/view?usp=drive_link</a></li>
+    <li>
+      <label>Página web en Vercel:</label> 
+      <a target="blank">https://personajes-disney.vercel.app/</a>
+    </li>
+    <li>
+      <label>Vídeo explicativo sobre la página web:</label>
+      <a target="blank">https://drive.google.com/file/d/1TzR76Yj5xSCVaPzhZw15nCJHsbU377X4/view?usp=drive_link</a>
+    </li>
   </ul>
 </p>
